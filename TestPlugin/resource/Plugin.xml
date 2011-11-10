@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The id must be unique, I generally put the class that extends the Plugin class as id. -->
+<plugin id="edu.umd.isr.testplugin.SimplePlugin" name="SimplePlugin" version="1.0" provider-name="Institute for Systems Research" class="edu.umd.isr.testplugin.SimplePlugin">
+
+    <!-- MagicDraw API version required by plug-in. Plug-ins and their requires versions required by plug-in. -->
+    <requires>
+        <api version="1.0" />
+    </requires>
+
+    <!-- The runtime libraries your plugin needs. -->
+    <runtime>
+        <library name="plugin.jar" />
+    </runtime>
+</plugin>
